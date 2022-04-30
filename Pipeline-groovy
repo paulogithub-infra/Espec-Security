@@ -11,6 +11,7 @@ pipeline {
             steps {
                 script {
                     echo 'Fazer o checkout do projeto'
+                            url: 'https://github.com/paulonill/Pipeline-groovy'
                 }
             }
         }
